@@ -140,7 +140,7 @@ This implementation plan breaks down the Travel Expense Tracker into discrete co
     - Add mobile-friendly styles
     - _Requirements: Accessibility and UX_
 
-- [-] 13. Final checkpoint - End-to-end validation
+- [x] 13. Final checkpoint - End-to-end validation
   - Test complete user flow: set budget, add expenses, edit, delete
   - Verify localStorage persistence across page reloads
   - Verify all calculations are correct
