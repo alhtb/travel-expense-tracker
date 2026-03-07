@@ -1,0 +1,49 @@
+/* 1. Global Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Great+Vibes&display=swap');
+
+/* 2. CSS Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. The Body & Background Wallpaper */
+body {
+  font-family: 'Almendra', serif; 
+  color: #000000;
+  min-width: 320px;
+  min-height: 100vh;
+  
+  /* Your exact Pinterest background */
+  background-image: url('/flower-bg.png'); 
+  background-repeat: repeat; 
+  background-size: 300px; 
+  background-attachment: fixed; 
+}
+
+/* 4. The Main App Container */
+#app {
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 2rem;
+}
+
+/* 5. Clean Number Inputs (Hides the up/down arrows) */
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* 6. Mobile Responsiveness */
+@media (max-width: 768px) {
+  #app {
+    padding: 1rem;
+  }
+}

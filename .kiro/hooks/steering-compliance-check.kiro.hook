@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "Steering Compliance Check",
+  "description": "Verifies that planned solutions follow the steering document guidelines, tech stack, architecture rules, and avoid non-goals before implementation begins",
+  "version": "1",
+  "when": {
+    "type": "preTaskExecution"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Before implementing this feature, verify: 1) Solution follows steering document guidelines, 2) Tech stack (Vue 3 Composition API, Vite, localStorage) is respected, 3) Architecture rules (composables for logic, presentational components, no Vue Router) are followed, 4) No non-goals (auth, backend, testing, multi-trip, currency conversion) are introduced. Confirm compliance or suggest adjustments."
+  }
+}

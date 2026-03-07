@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "Demo Readiness Check",
+  "description": "Ensures the application is ready for demo by checking for console errors, localStorage persistence, CRUD operations, and pie chart functionality",
+  "version": "1",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Perform demo readiness check: 1) Check for console errors in the application, 2) Verify localStorage persistence works (add/refresh/verify data persists), 3) Confirm all CRUD operations (Create, Read, Update, Delete) function correctly, 4) Verify pie chart updates correctly when expenses change. Report any issues found."
+  }
+}
