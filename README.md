@@ -200,10 +200,7 @@ Built following Vue 3 best practices:
 - Proper form validation and error handling
 - Responsive design with mobile-first approach
 
-## License
-
-MIT
 
 ## Author
 
-Built with Vue 3, Vite, and Chart.js
+Krish ꨄ︎
