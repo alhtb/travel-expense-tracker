@@ -6,18 +6,18 @@ A Vue 3 single-page application for tracking travel expenses against a budget. B
 
 This project was created during **Kiro Night – AWS User Group BuildHers+ Philippines**, where we explored Spec-Driven Development (SDD), Steering Documents, and Agent Hooks using Kiro. Additional updates have been made to enhance functionality and user experience.
 
-![Travel Expense Tracker](public/flower-bg.png)
+![Travel Expense Tracker](public/UI.png)
 
 ## Features
 
-- 💰 Set trip budget and destination with explicit save
-- ➕ Add, edit, and delete expenses with validation
-- 📊 Real-time budget tracking (total spent, remaining budget)
-- 📈 Category-based pie chart visualization using Chart.js
-- 💾 Automatic data persistence with localStorage
-- ✅ Input validation for budget and expenses
-- 🔄 Start new travel to reset all data
-- 📱 Responsive design for mobile and desktop
+- Set trip budget and destination with explicit save
+- Add, edit, and delete expenses with validation
+- Real-time budget tracking (total spent, remaining budget)
+- Category-based pie chart visualization using Chart.js
+- Automatic data persistence with localStorage
+- Input validation for budget and expenses
+- Start new travel to reset all data
+- Responsive design for mobile and desktop
 
 ## Tech Stack
 
